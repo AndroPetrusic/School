@@ -1,0 +1,197 @@
+.body
+{
+    background-color: #060507;
+}
+
+.logo
+{
+position: absolute;
+left: 3%;
+background: black;
+}
+
+.topnav {
+    overflow: hidden;
+    margin-left: 23%;
+    width: 77%;
+    height: 74;
+}
+  
+.topnav a {
+    font-family:Krona One;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+    float: left;
+    width: 168px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a.link {
+    background-color: transparent;
+    color: #c2c2c2;
+}
+  
+.topnav a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+.topnav a.active {
+    background-color:transparent;
+    color: white;
+}
+
+.motocircle
+{
+    z-index: 4;
+    position: absolute;
+    width: 128px;
+    height: 124px;
+    left: 42%;
+    top: 18%;
+    
+    background: black;
+}
+
+.gold
+{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.motorcycle
+{
+    z-index: 2;
+    position: absolute;
+    top: 10%;
+    left: 0px;
+}
+
+.wheel
+{
+    z-index: 3;
+    position: absolute;
+    top: 10%;
+    left: 1150px;
+    background-image: radial-gradient(circle, transparent 2%,#060507);
+}
+
+.chinese1
+{
+    z-index: 5;
+    position: absolute;
+    top: 60%;
+    left: 0px;
+}
+
+.chinese2
+{
+    z-index: 5;
+    position: absolute;
+    top: 60%;
+    left: 900px;
+}
+
+.sidestats
+{
+    z-index: 6;
+    position: absolute;
+    right: 0px;
+    top: 375px;
+    background-color: #060507;
+    width: 473px;
+    height: 600px;
+    
+
+}
+
+.sidebar
+{
+    z-index: 7;
+    overflow: hidden;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.seat
+{
+    z-index: 7;
+    position: absolute;
+    bottom: 0px;
+    right: 473px;
+
+}
+
+.bottom_div
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 1150px;
+    height: 128px;
+    display: flex;
+
+}
+
+.left_page
+{
+    font-family: Krona One;
+    margin-left: 25px;
+    margin-top: 35px;
+    color: white;
+}
+
+.right_page
+{
+    font-family: Krona One;
+    position: relative;
+    left:126px;
+    margin-top: 35px;
+    color: white;
+}
+
+.onpage{
+    position: relative;
+    left:64px;
+    margin: 43px 0 0 0;
+    width:calc(22.6px*2);
+    height: 2px;
+    background-color: #a75b12;
+    z-index: 2;
+}
+.leftpage{
+    margin: 43px 0px 0 20px;
+    z-index: 1;
+    width:226px;
+    height: 2px;
+    background-color: white;
+}
+
+.bike_info
+{
+
+    position: relative;
+    width: 406px;
+    height: 92px;
+    left: 169px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
